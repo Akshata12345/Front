@@ -1,17 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "ag-grid-community/dist/styles/ag-grid.css";
 @import "ag-grid-community/dist/styles/ag-theme-balham.css";
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 mat-sidenav {
-    width: 200px;
+    width: 230px;
     padding:15px;
 }
 .mat-drawer { 
-    background-color:#3f51b5;
+    background-color:whitesmoke;
     color:#fff
 }
 .main-content {
@@ -21,12 +21,16 @@ mat-sidenav {
     flex: 1 1 auto;
 }
 .mat-expansion-panel {
-    background-color:#3f51b5;
+    background-color:whitesmoke;
     color:#fff;
 }
 .mat-expansion-panel-header-title {
-     color: white; 
+     color:Black; 
 }
 .mat-list-base .mat-list-item, .mat-list-base .mat-list-option {
-    color: white;
+    color:black;
 }
+.mat-expansion-panel-header.mat-expanded {
+    height: 50px;
+}
+ 

@@ -14,4 +14,12 @@ export class UserProfileComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleNav(nav:any) {
+    if (nav.opened) {
+      nav.close()
+    } else {
+      nav.open();
+    }
+  }
+
 }
