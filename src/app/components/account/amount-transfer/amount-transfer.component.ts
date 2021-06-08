@@ -20,7 +20,8 @@ export class AmountTransferComponent implements OnInit {
     bank:new FormControl(),
     AccountNo:new FormControl(),
     ifsccode:new FormControl(),
-    name:new FormControl()
+    name:new FormControl(),
+    amount:new FormControl()
 
 
   })
